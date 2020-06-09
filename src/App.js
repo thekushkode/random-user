@@ -1,24 +1,20 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import RandomUser from './components/RandomUser';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h1>Random D-Bags</h1>
       </header>
+      <main>
+        <div className="Users">
+          <RandomUser></RandomUser>
+          <RandomUser></RandomUser>
+          <RandomUser></RandomUser>
+        </div>
+      </main>
     </div>
   );
 }
