@@ -1,0 +1,9 @@
+.Dropdown {
+    margin: 5px;
+}
+
+.Person {
+    border: 1px solid black;
+    margin: 5px;
+    background-color: rgb(78, 228, 183);
+}
